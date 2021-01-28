@@ -1,0 +1,22 @@
+<div style="text-align: justify; width: 75%; border: 1px solid #eee;
+            border-radius: 3px; padding: 1rem; font-size: 18px;">
+  <p style="text-align: center; font-weight: 500">
+    Sveikas, ${userData.firstname} ${userData.lastname}!
+  </p>
+  <p>
+    Tu buvai pakviestas prisijungti prie HiRent, kur galėsi matyti savo naujo 
+    nuomojamo buto informaciją, mokesčius bei galėsi vienu paspaudimu sumokėti
+    už nuoma!
+    Paspaudęs žemiau esantį mygtuką, galėsi užsiregistruoti ir iškarto matysi
+    informaciją apie nuomojamą butą!
+  </p>
+  <div>
+    <div style="width: 25%; background: #ffca28; padding: 2rem; 
+                text-align: center; margin: auto;">
+      <a style="font-size: 24px; font-weight: 500; color: #505050; text-decoration: none"
+         href="http://localhost:3000/invitation/${userData.tenantInfo.assignedLandlord}/${userData.tenantInfo.assignedProperty}/${userData.userId}">
+        Užsiregistruoti
+      </a>
+    </div>
+  </div>
+</div>

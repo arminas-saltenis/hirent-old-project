@@ -1,0 +1,68 @@
+.card-wrapper {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 18rem;
+  -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+}
+
+.card-wrapper .card-header {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.card-wrapper .card-divider {
+  margin-top: 1rem;
+  height: 1px;
+  width: 85%;
+  background-color: #ddd;
+}
+
+.card-wrapper .card-actions {
+  margin-top: 1rem;
+}
+
+.card-wrapper .card-img {
+  width: 5rem;
+  max-width: 5rem;
+  min-width: 5rem;
+  padding: 1rem
+}
+
+.card-img-container {
+  margin: 0.75rem auto;
+}
+
+.card-button {
+  margin: 0.25rem 0;
+}
+
+.card-subinfo {
+  margin-top: 1rem;
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.card-paid-badge-true {
+  background-color: #a5d6a7;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0.5rem 0.5rem;
+  padding: 0.25rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.card-paid-badge-false {
+  background-color: #ffab91;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0.5rem 0.5rem;
+  padding: 0.25rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}

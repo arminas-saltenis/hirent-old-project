@@ -1,0 +1,53 @@
+.credentials-link::before {
+  content: '\021E0';
+  margin-right: 0.2rem;
+}
+
+.credentials-actions {
+  margin-top: 1rem;
+}
+
+.credentials-wrapper {
+  margin-top: 15rem;
+}
+
+.credentials-title {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 1rem;
+  padding: 0.25rem;
+  color: #fff;
+  background: #ffca28;
+  transform: skew(-10deg);
+}
+
+a {
+  color: #2d2d2d;
+  text-decoration: none
+}
+
+.common-card-container {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-top: 1rem;
+  -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+}
+
+.common-card-container .common-card-header {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.common-card-container .common-card-content {
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .credentials-wrapper {
+    margin-top: 5rem;
+  }
+}

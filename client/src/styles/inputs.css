@@ -1,0 +1,97 @@
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='tel'],
+input[type='number'],
+input[type='checkbox'] {
+  border: none;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+select {
+  border: none;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+button {
+  background: rgba(148, 148, 148, 0.1);
+  border: none;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+
+button:hover {
+  background: rgba(148, 148, 148, 0.2);
+}
+
+button:active {
+  background: rgba(148, 148, 148, 0.4);
+}
+
+button:focus {
+  background: rgba(148, 148, 148, 0.3);
+}
+
+button.primary {
+  background: rgba(255, 192, 0, 0.7);
+  border: none;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+button.primary:hover {
+  background: rgba(255, 192, 0, 0.8);
+}
+
+button.primary:active {
+  background: rgba(255, 192, 0, 1);
+}
+
+button.primary:focus {
+  background: rgba(255, 192, 0, 0.9);
+}
+
+button.danger {
+  background: rgba(241, 89, 41, 0.5);
+  border: none;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+button.danger:hover {
+  background: rgba(241, 89, 41, 0.6);
+}
+
+button.danger:active {
+  background: rgba(241, 89, 41, 0.8);
+}
+
+button.danger:focus {
+  background: rgba(241, 89, 41, 0.7);
+}
+
+button.success {
+  background: #81c784;
+  border: none;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+button.success:hover {
+
+}
+
+button.success:active {
+  
+}
+
+button.success:focus {
+  
+}
